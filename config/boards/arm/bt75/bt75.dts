@@ -9,8 +9,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-	model = "CKP";
-	compatible = "polarityworks,ckp";
+	model = "BT75";
+	compatible = "polarityworks,bt75";
 
 	chosen {
 		zephyr,code-partition = &code_partition;

@@ -2,12 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: refil
-      url-base: https://github.com/refil
+    - name: bortoz
+      url-base: https://github.com/bortoz
   projects:
     - name: zmk
-      remote: refil
-      revision: adv360-beta
+      remote: bortoz
+      revision: backlight
       import: app/west.yml
   self:
     path: config
