@@ -1,5 +1,5 @@
-identifier: bt75
-name: bt75
+identifier: ckp
+name: ckp
 type: mcu
 arch: arm
 toolchain:
