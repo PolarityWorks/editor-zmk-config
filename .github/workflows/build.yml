@@ -39,6 +39,7 @@ jobs:
         if: ${{ always() }}
         run: cat -n build/zephyr/bt75.dts.pre.tmp
       - name: bt75 Kconfig file
+        if: ${{ always() }}
         run: cat build/zephyr/.config | grep -v "^#" | grep -v "^$"
       - name: Rename zmk.uf2
         run: cp build/zephyr/zmk.uf2 bt75.uf2
