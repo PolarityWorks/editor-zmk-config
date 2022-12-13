@@ -14,11 +14,21 @@
        "&kp LSHFT",  "&kp NON_US_BSLH",  "&kp Z",       "&kp X",      "&kp C",       "&kp V",       "&kp B",      "&kp N",    "&kp M", "&kp COMMA",  "&kp DOT",   "&kp FSLH",  "&kp RSHFT",          "&kp UP",      "&mo 1",
        "&kp LCTRL",         "&kp LGUI",        "&kp LALT",                                               "&kp SPACE",                               "&kp RALT",  "&kp RCTRL",   "&kp LEFT",        "&kp DOWN",  "&kp RIGHT"
     ], [
-       "&kp GRAVE",          "&kp F1",        "&kp F2",       "&kp F3",      "&kp F4",     "&kp F5",     "&kp F6",      "&kp F7",      "&kp F8",      "&kp F9",    "&kp F10",        "&kp F11",           "&kp F12",     "&trans",     "&trans",
-          "&trans",             "&trans",        "&kp UP",       "&trans",      "&trans",      "&trans",      "&trans",     "&trans",      "&trans",      "&trans",   "&kp PSCRN",      "&kp SLCK",   "&kp PAUSE_BREAK",
-          "&trans",              "&kp LEFT",      "&kp DOWN",     "&kp RIGHT",      "&trans",       "&trans",      "&trans",    "&trans",      "&trans",      "&trans",      "&kp INS",      "&kp HOME",        "&kp PG_UP",      "&bootloader",
-      "&kp C_PREV",  "&none",         "&trans",        "&trans",        "&trans",       "&trans",       "&trans",      "&trans",   "&trans",      "&trans",  "&bl BL_DEC",    "&bl BL_DEC",        "&kp END",       "&kp PG_DN",   "&kp C_NEXT",
-    "&kp C_VOL_DN",    "&kp C_VOL_UP",      "&kp C_MUTE",                                                        "&trans",                              "&rgb_ug RGB_TOG",    "&bl BL_TOG",     "&bt BT_PRV",      "&bt BT_NXT",   "&bl BL_CLR"  
+       "&kp GRAVE",           "&kp F1",        "&kp F2",       "&kp F3",      "&kp F4",     "&kp F5",     "&kp F6",      "&kp F7",      "&kp F8",      "&kp F9",    "&kp F10",        "&kp F11",           "&kp F12",     "&trans",     "&trans",
+         "&kp TAB",              "&trans",        "&kp UP",       "&trans",      "&trans",      "&trans",      "&trans",     "&trans",      "&trans",      "&trans",   "&kp PSCRN",      "&kp SLCK",   "&kp PAUSE_BREAK",
+        "&kp CAPS",               "&kp LEFT",      "&kp DOWN",     "&kp RIGHT",      "&trans",       "&trans",      "&trans",    "&trans",      "&trans",      "&trans",      "&kp INS",      "&kp HOME",        "&kp PG_UP",      "&bootloader",
+        "&kp K_PP",  "&kp K_PREV",   "&kp K_NEXT",       "&trans",        "&trans",       "&trans",       "&trans",      "&trans",   "&trans",      "&trans",  "&bl BL_DEC",    "&bl BL_INC",       "&kp END",       "&kp PG_DN",       "&trans",
+    "&kp K_VOL_DN",    "&kp K_VOL_UP",      "&kp K_MUTE",                                                        "&trans",                                "&rgb_ug RGB_TOG",    "&bl BL_TOG",    "&bt BT_PRV",      "&bt BT_NXT",   "&bt BT_CLR"  
+   
+    
+    
+
+				                                                                                                                                                   
+    
+    
+    
+    
+    
     ]
   ]
 }
