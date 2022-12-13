@@ -30,8 +30,8 @@
 			bindings = <
 				&kp GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &trans &trans
 				&kp TAB &trans &kp UP &trans &trans &trans &trans &trans &trans &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK
-				&kp CAPS &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &kp INS &kp HOME  &kp PG_UP &trans  &bootloader
-				&kp K_PP &kp C_PREV &kp C_NEXT &trans &trans &trans &trans &trans &trans &trans &bl BL_DEC &bl BL_DEC &trans &kp END &kp PG_DN
+				&kp CAPS &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &trans &kp INS &kp HOME  &kp PG_UP &bootloader
+				&kp K_PP &kp C_PREV &kp C_NEXT &trans &trans &trans &trans &trans &trans &trans &bl BL_DEC &bl BL_DEC &kp END &kp PG_DN &trans
 				&kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE                      &trans                  &rgb_ug RGB_TOG &bl BL_TOG &bt BT_PRV &bt BT_NXT &bt BT_CLR  
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
