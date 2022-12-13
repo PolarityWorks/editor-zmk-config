@@ -19,16 +19,6 @@
         "&kp CAPS",               "&kp LEFT",      "&kp DOWN",     "&kp RIGHT",      "&trans",       "&trans",      "&trans",    "&trans",      "&trans",      "&trans",      "&kp INS",      "&kp HOME",        "&kp PG_UP",      "&bootloader",
         "&kp K_PP",  "&kp K_PREV",   "&kp K_NEXT",       "&trans",        "&trans",       "&trans",       "&trans",      "&trans",   "&trans",      "&trans",  "&bl BL_DEC",    "&bl BL_INC",       "&kp END",       "&kp PG_DN",       "&trans",
     "&kp K_VOL_DN",    "&kp K_VOL_UP",      "&kp K_MUTE",                                                        "&trans",                                "&rgb_ug RGB_TOG",    "&bl BL_TOG",    "&bt BT_PRV",      "&bt BT_NXT",   "&bt BT_CLR"  
-   
-    
-    
-
-				                                                                                                                                                   
-    
-    
-    
-    
-    
     ]
   ]
 }
