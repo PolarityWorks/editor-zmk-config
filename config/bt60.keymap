@@ -11,10 +11,10 @@
 		default_layer {
 				// ------------------------------------------------------------------------------------------
 				// |  `  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  =  | BKSP | DEL |
-				// | TAB  |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |        |
-				// | CAPS  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  |  #  | ENTER |
+				// | TAB  |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |          |
+				// | CAPS  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  |  #  |  ENTER  |
 				// |  SHIFT|  \ |  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  | /   | SHIFT | UP | 1 |
-				// |  CTL  |  WIN  |  ALT  |            SPACE               | ALT | CTL | LEFT | DOWN | RIGHT |
+				// |  CTL  |  WIN  |  ALT  |            SPACE              | ALT | CTL | LEFT | DOWN | RIGHT |
 				// ------------------------------------------------------------------------------------------
 			bindings = <
 
@@ -28,11 +28,11 @@
 		};
 		raise {
 			bindings = <
-				&bt BT_CLR &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &trans &trans
-				&trans &trans &kp UP &trans &trans &trans &trans &trans &kp INS &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK
-				&kp CAPS    &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &trans &kp HOME  &kp PG_UP &trans  &bootloader
-				&kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &bl BL_INC &bl BL_DEC &trans &trans &trans &trans &trans &rgb_ug RGB_TOG &kp END &kp PG_DN  &bl BL_TOG
-				&bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans            &trans  &trans  &rgb_ug RGB_TOG  &bl BL_TOG
+				&bt GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &trans &trans
+				&kp TAB &trans &kp UP &trans &trans &trans &trans &trans &trans &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK
+				&kp CAPS &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &kp ins &kp HOME  &kp PG_UP &trans  &bootloader
+				&kp K_PP &kp C_PREV &kp C_NEXT &trans &trans &trans &trans &trans &trans &trans &bl BL_DEC &bl BL_DEC &kp END &kp PG_DN &trans
+				&kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE                      &trans                  &rgb_ug RGB_TOG &bl BL_TOG &bt BT_PRV &bt BT_NXT &bl BL_CL  
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
